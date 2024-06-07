@@ -1,0 +1,4 @@
+&iexcl;
+&cent;
+&pound;
+;undpo&
