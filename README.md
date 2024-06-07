@@ -22,11 +22,11 @@ where example2.txt is the text file that we want to search for anagrams
 4) The lists of anagrams will be printed to the console, and the process will be repeated for the next set of words from the file.
 
 ## Big O Analysis
-Time complexity
+### Time complexity
     - Sorting a word: O(n log n) Quicksort (java outbox)where n is the length of the word.
     - Grouping words: O(k * n log n) where k is the number of words and n is the average length of the words.
     - Overall: O(k * n log n).
-Space complexity
+### Space complexity
 - Array for storing the words O(n)
 - Keys O(m) average number of keys 
 - Overall : O(n+m)
